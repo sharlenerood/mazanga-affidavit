@@ -47,7 +47,7 @@
   @keyframes pulse { 0%{transform:scale(1);opacity:0.8} 100%{transform:scale(2.4);opacity:0} }
   .popup { position: absolute; z-index: 100; width: min(280px, 75vw); background: var(--popup-bg); border: 2px solid var(--red); border-left: 4px solid var(--red); padding: 14px 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.5); pointer-events: none; opacity: 0; transform: translateY(6px); transition: opacity 0.18s, transform 0.18s; border-radius: 2px; }
   .popup.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
-  .popup-num { font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--red); margin-bottom: 9px; }
+  .popup-num { font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: #ffffff; margin-bottom: 9px; }
   .popup-text { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 400; line-height: 1.65; color: var(--popup-text); }
   .popup-close { position: absolute; top: 10px; right: 12px; font-size: 14px; color: #8a7f6a; cursor: pointer; background: none; border: none; padding: 0; font-family: 'Montserrat', sans-serif; line-height: 1; }
   .popup-close:hover { color: #fff; }
@@ -170,14 +170,14 @@
     <div class="page-container">
       <img class="page-img" src="Affidavit_P2.jpg" alt="Mazanga Personal Affidavit Page 2">
 
-     <div class="highlight" style="left:1.5%; top:12%; width:35%; height:18%;"></div>
-<div class="highlight" style="left:1.5%; top:45.5%; width:40%; height:3%;"></div>
-<div class="highlight" style="left:55%; top:54%; width:45%; height:2.5%;"></div>
+     <div class="highlight" style="left:5.5%; top:12%; width:35%; height:14%;"></div>
+<div class="highlight" style="left:5.5%; top:43.5%; width:34%; height:3%;"></div>
+<div class="highlight" style="left:55%; top:55%; width:45%; height:2.9%;"></div>
 
 
-      <div class="marker" style="left:5%; top:14%;" onclick="togglePopup(event,'popup-6',this)">6</div>
-<div class="marker" style="left:52%; top:39%;" onclick="togglePopup(event,'popup-7',this)">7</div>
-<div class="marker" style="left:86%; top:57%;" onclick="togglePopup(event,'popup-8',this)">8</div>
+      <div class="marker" style="left:9%; top:14%;" onclick="togglePopup(event,'popup-6',this)">6</div>
+<div class="marker" style="left:43%; top:44%;" onclick="togglePopup(event,'popup-7',this)">7</div>
+<div class="marker" style="left:89%; top:56%;" onclick="togglePopup(event,'popup-8',this)">8</div>
      
       <div class="popup" id="popup-6" style="left:8%; top:29%;">
         <button class="popup-close" onclick="closePopup('popup-6')">✕</button>
